@@ -14,6 +14,7 @@ class TestLargestSumNonAdjacent:
     @pytest.mark.parametrize(
         "numbers, expected",
         [
+            ([], 0),
             ([2, 4, 6, 2, 5], 13),
             ([5, 1, 1, 5], 10),
             ([3, 2, 5, 10, 7], 15),
