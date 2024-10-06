@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "daily-coding-problem"
+version = "0.1.0"
+description = "Solutions for https://www.dailycodingproblem.com"
+authors = ["Pedro López Mareque <pedro.lopez.mareque@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mypy = "^1.11.2"
+ruff = "^0.6.9"
+pytest = "^8.3.3"
+expects = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
