@@ -36,7 +36,7 @@ format:  ## Format python code
 
 .PHONY: test
 test:	## Run the tests
-	poetry run pytest tests
+	poetry run pytest tests -n auto -ra
 
 .PHONY: pre-commit
 pre-commit: check-lint check-format check-typing test

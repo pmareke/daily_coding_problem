@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 from typing import Self
 
 """
@@ -9,21 +10,25 @@ Given the root to a binary tree:
 """
 
 
+@dataclass
 class Node:
-    def __init__(
-        self,
-        value: str,
-        left: Self | None = None,
-        right: Self | None = None,
-    ):
-        self.value = value
-        self.left = left
-        self.right = right
+    value: str
+    left: Self | None = None
+    right: Self | None = None
 
 
 def serialize(node: Node) -> str:
-    return node.value
+    if not node.left and not node.right:
+        return f'Node("{node.value}")'
+    if not node.left:
+        assert node.right
+        return f'Node("{node.value}", {serialize(node.right)})'
+    if not node.right:
+        assert node.left
+        return f'Node("{node.value}", {serialize(node.left)})'
+    return f'Node("{node.value}", {serialize(node.left)}, {serialize(node.right)})'
 
 
 def deserialize(data: str) -> Node:
-    return Node(data)
+    node: Node = eval(data)
+    return node
