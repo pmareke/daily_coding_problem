@@ -1,3 +1,4 @@
 # [Daily Coding Problem](https://www.dailycodingproblem.com)
 
 1. [Trees](./src/trees.py)
+2. [Find first missing positive integer](./src/find_first_missing_positive_integer.py)
