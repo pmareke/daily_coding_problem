@@ -5,3 +5,4 @@
 3. [Decode ways](./src/decode_ways.py)
 4. [Unival tree](./src/unival_tree.py)
 5. [Largest sum of non-adjacent numbers](./src/largest_sum_non_adjacent.py)
+6. [Scheduler](./src/scheduler.py)
