@@ -1,4 +1,4 @@
-# [Daily Coding Problem](https://www.dailycodingproblem.com)
+# [Daily Coding Problem](https://www.dailycodingproblem.com) ![status](https://github.com/pmareke/daily_coding_problem/actions/workflows/app.yml/badge.svg)
 
 1. [Trees](./src/trees.py)
 2. [Find first missing positive integer](./src/find_first_missing_positive_integer.py)
