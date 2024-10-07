@@ -6,3 +6,4 @@
 4. [Unival tree](./src/unival_tree.py)
 5. [Largest sum of non-adjacent numbers](./src/largest_sum_non_adjacent.py)
 6. [Scheduler](./src/scheduler.py)
+7. [Search](./src/search.py)
