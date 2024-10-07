@@ -12,9 +12,6 @@ class Searcher:
     def search(self, q: str) -> list[str]:
         return list(filter(lambda w: w.startswith(q), self.words))
 
-    def efficient_search(self, q: str) -> list[str]:
-        return self.search(q)
-
 
 class TrieNode:
     def __init__(self) -> None:
