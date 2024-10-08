@@ -7,3 +7,4 @@
 5. [Largest sum of non-adjacent numbers](./src/largest_sum_non_adjacent.py)
 6. [Scheduler](./src/scheduler.py)
 7. [Searcher](./src/searcher.py)
+8. [Staircase](./src/staircase.py)
