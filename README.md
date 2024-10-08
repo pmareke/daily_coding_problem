@@ -8,3 +8,4 @@
 6. [Scheduler](./src/scheduler.py)
 7. [Searcher](./src/searcher.py)
 8. [Staircase](./src/staircase.py)
+9. [Longest substring with at most k distinct characters](./src/longest_substring_k_distinct.py)
